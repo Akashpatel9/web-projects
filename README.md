@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Akashpatel9
 - 👀 I’m interested in Coding
 - 🌱 I’m currently learning Wev Development
-- 💞️ I’m looking to collaborate and work on some project
+- 💞️ I’m looking to collaborate and work on some projects
 - 📫 How to reach me in linkdin
 
 <!---
