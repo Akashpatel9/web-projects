@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#over {
+    position: absolute;
+    padding: 25%;
+    border-radius: 50%;
+    background-color: rgb(231, 243, 238);
+    left: 55%;
+    transform: translate(-50%, 0%);
+    top: -30%;
+}
+
+#main2 {
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+#top {
+    height: 35%;
+    width: 100%;
+}
+
+#bottom {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    gap: 40px;
+}
+
+#text1 {
+    display: flex;
+    height: 35%;
+    width: 100%;
+}
+
+#imgg{
+    position: relative;
+    width: 103px;
+    height: 100px;
+    margin-right: 30px;
+    background-image: url(/pngwing.com.png);
+    background-position:center;
+    background-size:cover;
+
+}
+#links {
+    display: flex;
+    width: 28%;
+    gap: 25px;
+    align-items: center;
+}
+
+#links a {
+    justify-content: space-between;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+#search {
+    display: flex;
+    width: 30%;
+    margin-top: 34px;
+    margin-bottom: 30px;
+    padding: 05px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(189, 189, 189);
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(189, 189, 189);
+}
+
+#cart {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#text2 {
+    display: flex;
+    height: 65%;
+    width: 100%;
+}
+
+#img2 {
+    display: inline;
+    width: 50%;
+    height: 100%;
+}
+#image{
+    display: flex;
+    margin-top: 50px;
+    height: 19px;
+    width: 80px;
+    background-image: url(/kindpng_6836939.png);
+    background-size: contain ;
+    background-position: center;
+    align-items: flex-end;
+}
+#aa a{
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    color:  rgb(189, 189, 189);
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(1,142,101);
+}
+#td {
+    width: 50%;
+    height: 100%;
+    text-align: end;
+}
+#td h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(1,142,101);
+    margin-bottom: 2px;
+}
+#td p{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+#td a{
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    color:  rgb(189, 189, 189);
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(1,142,101);
+}
+#card{
+    filter: drop-shadow(4px 2px 6px);
+    flex-shrink: 0;
+    padding: 20px;
+    display: inline;
+    width: 18%;
+    border-radius: 10%;
+    background-color: rgb(233,232,228);
+    color: rgb(165,157,143);
+    font-size: 10px;
+    margin-top: 10%;
+    margin-left: 30px;
+    overflow-x: visible;
+}
+#bottom::-webkit-scrollbar{
+    display: none;
+}
+#cardimg{
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+}
+img{
+    overflow: hidden;
+    position: absolute;
+    height: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0px;
+}
+#midtext{
+    margin-top: 130px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 15px
+}
+#lasttext{
+    margin-top: 20px;
+    width: 100%;
+}
+#o1{
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#o2{
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#o3 h5{
+    margin-top: 5px;
+    width: 100%;
+    justify-content: space-between;
+}
+#card:hover{
+    margin-top: 8%;
+    background-color: rgb(1,134,96);
+    color: white;
+}
